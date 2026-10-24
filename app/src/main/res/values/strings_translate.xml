@@ -19,4 +19,22 @@
     <string name="translate_back">Back-translation: %1$s\nLong-press the translate button to undo</string>
     <string name="translate_undone">Restored the original text</string>
     <string name="translate_nothing_to_undo">Nothing to undo</string>
+    <string name="translate_provider">Provider</string>
+    <string name="translate_provider_deepseek">DeepSeek</string>
+    <string name="translate_provider_moonshot">Kimi (Moonshot)</string>
+    <string name="translate_provider_zhipu">Zhipu GLM</string>
+    <string name="translate_provider_qwen">Qwen (Alibaba Cloud)</string>
+    <string name="translate_provider_siliconflow">SiliconFlow</string>
+    <string name="translate_provider_openai">OpenAI</string>
+    <string name="translate_provider_custom">Custom (any OpenAI-compatible API)</string>
+    <string name="translate_model_custom">Custom…</string>
+    <string name="translate_lang_en">English</string>
+    <string name="translate_lang_ja">Japanese</string>
+    <string name="translate_lang_ko">Korean</string>
+    <string name="translate_lang_fr">French</string>
+    <string name="translate_lang_de">German</string>
+    <string name="translate_lang_es">Spanish</string>
+    <string name="translate_lang_ru">Russian</string>
+    <string name="translate_lang_zh_hant">Traditional Chinese</string>
+    <string name="translate_lang_zh_hans">Simplified Chinese</string>
 </resources>

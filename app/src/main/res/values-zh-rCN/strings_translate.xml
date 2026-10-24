@@ -18,4 +18,22 @@
     <string name="translate_back">回译：%1$s\n长按「译」可撤销</string>
     <string name="translate_undone">已恢复原文</string>
     <string name="translate_nothing_to_undo">没有可撤销的翻译</string>
+    <string name="translate_provider">服务商</string>
+    <string name="translate_provider_deepseek">DeepSeek</string>
+    <string name="translate_provider_moonshot">Kimi（月之暗面）</string>
+    <string name="translate_provider_zhipu">智谱 GLM</string>
+    <string name="translate_provider_qwen">通义千问（阿里云百炼）</string>
+    <string name="translate_provider_siliconflow">硅基流动</string>
+    <string name="translate_provider_openai">OpenAI</string>
+    <string name="translate_provider_custom">自定义（任意 OpenAI 兼容接口）</string>
+    <string name="translate_model_custom">自定义…</string>
+    <string name="translate_lang_en">英语</string>
+    <string name="translate_lang_ja">日语</string>
+    <string name="translate_lang_ko">韩语</string>
+    <string name="translate_lang_fr">法语</string>
+    <string name="translate_lang_de">德语</string>
+    <string name="translate_lang_es">西班牙语</string>
+    <string name="translate_lang_ru">俄语</string>
+    <string name="translate_lang_zh_hant">繁体中文</string>
+    <string name="translate_lang_zh_hans">简体中文</string>
 </resources>
