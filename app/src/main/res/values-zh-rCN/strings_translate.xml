@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translate">翻译</string>
+    <string name="translate_base_url">接口地址（OpenAI 兼容）</string>
+    <string name="translate_api_key">API Key</string>
+    <string name="translate_model">型号</string>
+    <string name="translate_target">译成</string>
+    <string name="translate_tone">语气</string>
+    <string name="translate_tone_casual">日常闲聊</string>
+    <string name="translate_tone_technical">技术讨论</string>
+    <string name="translate_tone_formal">正式</string>
+    <string name="translate_key_set">已设置（…%1$s）</string>
+    <string name="translate_key_unset">未设置</string>
+    <string name="translate_working">翻译中…</string>
+    <string name="translate_nothing">没有可翻译的文字</string>
+    <string name="translate_no_key">先填 API Key：设置 → 翻译</string>
+    <string name="translate_failed">翻译失败：%1$s</string>
+    <string name="translate_back">回译：%1$s\n长按「译」可撤销</string>
+    <string name="translate_undone">已恢复原文</string>
+    <string name="translate_nothing_to_undo">没有可撤销的翻译</string>
+</resources>

@@ -78,6 +78,9 @@ sealed class SettingsRoute : Parcelable {
     data object Clipboard : SettingsRoute()
 
     @Serializable
+    data object Translate : SettingsRoute()
+
+    @Serializable
     data object Symbol : SettingsRoute()
 
     @Serializable
@@ -215,6 +218,9 @@ sealed class SettingsRoute : Parcelable {
             }
             fragment<ClipboardSettingsFragment, Clipboard> {
                 label = ctx.getString(R.string.clipboard)
+            }
+            fragment<org.fcitx.fcitx5.android.translate.TranslateSettingsFragment, Translate> {
+                label = ctx.getString(R.string.translate)
             }
             fragment<SymbolSettingsFragment, Symbol> {
                 label = ctx.getString(R.string.emoji_and_symbols)

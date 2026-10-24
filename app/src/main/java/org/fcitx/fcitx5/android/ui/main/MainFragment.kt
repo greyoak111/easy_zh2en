@@ -84,6 +84,12 @@ class MainFragment : PaddingPreferenceFragment() {
                 )
             }
             addCategory("Android") {
+                // easy_zh2en
+                addDestinationPreference(
+                    R.string.translate,
+                    R.drawable.ic_translate,
+                    SettingsRoute.Translate
+                )
                 addDestinationPreference(
                     R.string.theme,
                     R.drawable.ic_baseline_palette_24,

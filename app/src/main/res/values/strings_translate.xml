@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- easy_zh2en: strings for the translate feature (kept in their own file to ease upstream merges) -->
+<resources>
+    <string name="translate">Translate</string>
+    <string name="translate_base_url">API base URL (OpenAI-compatible)</string>
+    <string name="translate_api_key">API key</string>
+    <string name="translate_model">Model</string>
+    <string name="translate_target">Target language</string>
+    <string name="translate_tone">Tone</string>
+    <string name="translate_tone_casual">Casual chat</string>
+    <string name="translate_tone_technical">Technical discussion</string>
+    <string name="translate_tone_formal">Formal</string>
+    <string name="translate_key_set">Set (…%1$s)</string>
+    <string name="translate_key_unset">Not set</string>
+    <string name="translate_working">Translating…</string>
+    <string name="translate_nothing">Nothing to translate</string>
+    <string name="translate_no_key">Set an API key first: Settings → Translate</string>
+    <string name="translate_failed">Translation failed: %1$s</string>
+    <string name="translate_back">Back-translation: %1$s\nLong-press the translate button to undo</string>
+    <string name="translate_undone">Restored the original text</string>
+    <string name="translate_nothing_to_undo">Nothing to undo</string>
+</resources>

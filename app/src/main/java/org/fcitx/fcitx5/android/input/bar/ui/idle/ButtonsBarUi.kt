@@ -28,6 +28,11 @@ class ButtonsBarUi(override val ctx: Context, private val theme: Theme) : Ui {
         root.addView(it, FlexboxLayout.LayoutParams(size, size))
     }
 
+    // easy_zh2en
+    val translateButton = toolButton(R.drawable.ic_translate).apply {
+        contentDescription = ctx.getString(R.string.translate)
+    }
+
     val undoButton = toolButton(R.drawable.ic_baseline_undo_24).apply {
         contentDescription = ctx.getString(R.string.undo)
     }

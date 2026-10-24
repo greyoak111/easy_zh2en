@@ -95,6 +95,9 @@ class KawaiiBarComponent : UniqueViewComponent<KawaiiBarComponent, FrameLayout>(
     private val commonKeyActionListener: CommonKeyActionListener by manager.must()
     private val popup: PopupComponent by manager.must()
 
+    // easy_zh2en
+    private val translateAction by lazy { org.fcitx.fcitx5.android.translate.TranslateAction(service) }
+
     private val prefs = AppPrefs.getInstance()
 
     private val clipboardSuggestion = prefs.clipboard.clipboardSuggestion
@@ -291,6 +294,9 @@ class KawaiiBarComponent : UniqueViewComponent<KawaiiBarComponent, FrameLayout>(
                 onGestureListener = swipeHideKeyboardCallback
             }
             buttonsUi.apply {
+                // easy_zh2en
+                translateButton.setOnClickListener { translateAction.onClick(it) }
+                translateButton.setOnLongClickListener { translateAction.onLongClick() }
                 undoButton.setOnClickListener {
                     service.sendCombinationKeyEvents(KeyEvent.KEYCODE_Z, ctrl = true)
                 }

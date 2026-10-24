@@ -12,6 +12,8 @@
         tools:node="remove" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- easy_zh2en：只在点工具栏「译」时，连接用户自己填写的翻译接口 -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <!-- remove intent queries merged from library manifest (namely Android-Image-Cropper) -->
